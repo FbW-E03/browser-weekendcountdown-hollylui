@@ -1,0 +1,47 @@
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 700px;
+  height: 200px;
+  background-color: hsl(16, 100%, 76%);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.h2Style {
+  margin: 0 0 20px 0;
+}
+
+.inputFormStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputNameStyle {
+  height: 35px;
+  text-indent: 5px;
+  margin-right: 10px;
+}
+
+.goBtnStyle {
+  height: 38px;
+  width: 60px;
+}
+
+/* DRY */
+
+.inputNameStyle,
+.goBtnStyle {
+  border-radius: 5px;
+  border: none;
+  font-size: 1.3rem;
+}
